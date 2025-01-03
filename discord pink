@@ -66,3 +66,39 @@
   --backdropblur: 0px;
   --version1_0_5: none;
 }
+
+/* Any custom CSS below here */
+
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://i.imgur.com/A9KbKm1.gif');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 255,241,254;
+  --accentcolor: 255,241,254;
+  --backdrop: rgb(0,0,0,0);
+  --textshadow: rgb(0,0,0,0.53);
+  --transparencyalpha: 0;
+  --messagetransparency: 0;
+  --guildchanneltransparency: 0.15;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Whitney;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
